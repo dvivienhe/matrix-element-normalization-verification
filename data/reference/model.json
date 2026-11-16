@@ -1,0 +1,51 @@
+{
+  "purpose": "Bounded reference model; thresholds recorded before its first numerical execution",
+  "length_unit": "nm",
+  "energy_unit": "eV",
+  "hbar2_over_2m0_eV_nm2": 0.0380998211615486,
+  "double_well": {
+    "well_width_nm": 6.0,
+    "barrier_width_nm": 8.0,
+    "barrier_eV": 0.5,
+    "mass_m0": 0.04,
+    "box_half_width_nm": 30.0,
+    "grid_nm": [
+      0.4,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "surfaces_nm": [
+      -2.0,
+      0.0,
+      2.0
+    ],
+    "barrier_crosscheck_nm": [
+      2.0,
+      4.0,
+      8.0,
+      12.0
+    ]
+  },
+  "optical": {
+    "well_width_nm": 10.0,
+    "kane_energy_eV": 20.0,
+    "grid_nm": [
+      0.4,
+      0.2,
+      0.1,
+      0.05
+    ]
+  },
+  "checks": {
+    "optical_relative_error": 1e-12,
+    "zero_optical_absolute_eV2_nm2": 1e-24,
+    "normalization_factor_residual": 1e-10,
+    "finest_transfer_amplitude_relative_error": 0.01,
+    "finest_double_well_energy_relative_error": 0.001,
+    "surface_relative_spread": 1e-08,
+    "box_extension_relative_difference": 1e-06,
+    "weak_barrier_12nm_half_splitting_relative_difference": 0.01
+  },
+  "interpretation": "Transfer-amplitude validation in a declared scalar model; not a validation of a many-band injection rate or of a device occupation model"
+}

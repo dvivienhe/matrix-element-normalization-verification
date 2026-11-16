@@ -1,0 +1,11 @@
+{
+ "reference_relative": 0.02,
+ "log_reference_budget": 0.020203,
+ "component_residual": 1e-10,
+ "log_probe_budget": 1.01e-10,
+ "adjacent_last_relative": 0.02,
+ "trim_slope_change": 0.05,
+ "max_log_residual": 0.02,
+ "slope_absolute": 0.05,
+ "absolute_budget_nm2": 1e-24
+}

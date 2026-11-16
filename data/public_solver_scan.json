@@ -1,0 +1,105 @@
+{
+ "setup": "public-solver interface scan: Aestimo and Solcore at the pinned commits (QWWAD read from source only)",
+ "targets": {
+  "aestimo": {
+   "commit": "19674cf5293c5806b27556b3855ffc08dad7ca38",
+   "ladder": [
+    0.5,
+    0.25,
+    0.125,
+    0.0625
+   ],
+   "rows": [
+    {
+     "dz_nm": 0.5,
+     "z_if_nm": 3.345603733199291,
+     "dE_meV": 49.37301206573409,
+     "wfe_source": "result.wfe_general[1]",
+     "delivered_sum_c2": 1.0000000000000002,
+     "delivered_sum_c2_dx": 5.000000000000001e-10,
+     "delivered_convention": "euclidean-discrete",
+     "warnings": []
+    },
+    {
+     "dz_nm": 0.25,
+     "z_if_nm": 3.3453719399898776,
+     "dE_meV": 49.288515962338806,
+     "wfe_source": "result.wfe_general[1]",
+     "delivered_sum_c2": 1.0,
+     "delivered_sum_c2_dx": 2.5e-10,
+     "delivered_convention": "euclidean-discrete",
+     "warnings": []
+    },
+    {
+     "dz_nm": 0.125,
+     "z_if_nm": 3.3441282383289077,
+     "dE_meV": 49.175211655907674,
+     "wfe_source": "result.wfe_general[1]",
+     "delivered_sum_c2": 0.9999999999999994,
+     "delivered_sum_c2_dx": 1.2499999999999993e-10,
+     "delivered_convention": "euclidean-discrete",
+     "warnings": []
+    },
+    {
+     "dz_nm": 0.0625,
+     "z_if_nm": 3.344136396853105,
+     "dE_meV": 49.09607145081077,
+     "wfe_source": "result.wfe_general[1]",
+     "delivered_sum_c2": 1.0000000000000009,
+     "delivered_sum_c2_dx": 6.250000000000006e-11,
+     "delivered_convention": "euclidean-discrete",
+     "warnings": []
+    }
+   ],
+   "slope_z_if": 0.00024351030543517897,
+   "f_readout": "DROPPED (transitions() wrapper API-broken on the pinned HEAD; oscillator strength not computable through target code)",
+   "q1_finite_limit": false,
+   "q1_successive_rel_change": [
+    6.928772452556623e-05,
+    0.00037190609101502795,
+    2.4396505491785022e-06
+   ],
+   "branch": "OTHER"
+  },
+  "solcore": {
+   "commit": "9fe65b2af09d9057ed429d9e8a9ef2bba1d708aa",
+   "T0_prime": "PASS",
+   "ladder": [
+    0.5,
+    0.25,
+    0.125
+   ],
+   "rows": [
+    {
+     "dz_nm": 0.5,
+     "z01_nm": 2.3762748202728052,
+     "delivered_norm_state0": 0.9999999999999999,
+     "E01_meV": 97.35043249888457
+    },
+    {
+     "dz_nm": 0.25,
+     "z01_nm": 2.3299912285640705,
+     "delivered_norm_state0": 1.0000000000000004,
+     "E01_meV": 101.84168026901555
+    },
+    {
+     "dz_nm": 0.125,
+     "z01_nm": 2.3078203985104966,
+     "delivered_norm_state0": 1.0,
+     "E01_meV": 103.98495506606177
+    }
+   ],
+   "slope_z01": 0.021085371222778575,
+   "q1_finite_limit": true,
+   "q1_successive_rel_change": [
+    0.019864277230459127,
+    0.009606826453169102
+   ],
+   "branch": "PASS"
+  },
+  "qwwad": {
+   "commit": "eff8cec3501027d1b33dc5d568d1a2e85b919fbd",
+   "role": "source-evidence-only (source read at the pinned commit; not executed)"
+  }
+ }
+}

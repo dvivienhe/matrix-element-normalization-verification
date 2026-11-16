@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these programs or data, please cite the accompanying article and this release."
+title: "Normalization verification of optical and transfer matrix elements in semiconductor heterostructures: programs and data"
+type: software
+version: "1.0.0"
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/dvivienhe/matrix-element-normalization-verification"
+authors:
+  - family-names: "He"
+    given-names: "De"
+    affiliation: "Southwest University; University of Otago"
+  - family-names: "Huang"
+    given-names: "Zhiyi"
+    affiliation: "University of Otago"
+  - family-names: "Li"
+    given-names: "Lianhe"
+    affiliation: "University of Leeds"
+  - family-names: "Zhang"
+    given-names: "Haibo"
+    affiliation: "The University of New South Wales; Australian National University"
+keywords:
+  - envelope function
+  - k.p
+  - normalization
+  - matrix element
+  - bounded-error estimation
+  - code verification
+  - semiconductor heterostructure
+  - interband cascade laser
+abstract: >-
+  Programs and input data accompanying the article "Normalization verification of optical and transfer matrix
+  elements in semiconductor heterostructures" (submitted to Computer Physics Communications). The single entry
+  point run_all.py regenerates the computed tables and the eight figures of the article and compares them with the
+  expected values in expected_outputs.json; README.md maps the article's figures and tables to programs and data.
+  Program code: MIT; data, tables and figures: CC BY 4.0.

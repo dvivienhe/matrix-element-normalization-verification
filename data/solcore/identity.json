@@ -1,0 +1,174 @@
+{
+ "timestamp_utc": "2026-09-23T06:28:08.571459+00:00",
+ "solcore_head": "9fe65b2af09d9057ed429d9e8a9ef2bba1d708aa",
+ "solcore_dirty": false,
+ "potential_utilities_sha256": "f860f56c08c73e743e975f24917acbfc98de96083ba5940e4354a06bbb9485f9",
+ "solcore_constants": {
+  "q": 1.60217646e-19,
+  "electron_mass": 9.10938188e-31,
+  "hbar": 1.05457148e-34,
+  "hbar2_over_2m0_eV_nm2": 0.03809980852054178
+ },
+ "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+ "numpy": "2.2.6",
+ "scipy": "1.15.3",
+ "repository_head": null,
+ "ladder_nm": [
+  0.5,
+  0.25,
+  0.125,
+  0.0625
+ ],
+ "driver": "node: potential and call of public_solver_scan.py; cell: cell-averaged potential",
+ "call": "schroedinger_solve(x, v, 0.067*electron_mass, num_eigenvalues=4, quasiconfined=0.4)",
+ "dipoles_historical_formula": {
+  "node_0.5": {
+   "z01_nm": 2.3762748202728052,
+   "norm0": 0.9999999999999999,
+   "norm1": 1.0,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.033336286447506795,
+    0.13068671894639136,
+    0.28086046715752294,
+    0.42426661759021533
+   ]
+  },
+  "node_0.25": {
+   "z01_nm": 2.3299912285640705,
+   "norm0": 1.0000000000000004,
+   "norm1": 1.0000000000000002,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03487994923521132,
+    0.13672162950422687,
+    0.2929057140700711,
+    0.4301699305787892
+   ]
+  },
+  "node_0.125": {
+   "z01_nm": 2.3078203985104966,
+   "norm0": 1.0,
+   "norm1": 0.9999999999999999,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03563314377885108,
+    0.13961809884491283,
+    0.2984967826525625,
+    0.4325544115733795
+   ]
+  },
+  "node_0.0625": {
+   "z01_nm": 2.296964238935332,
+   "norm0": 1.0,
+   "norm1": 0.9999999999999998,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03600371145339106,
+    0.141030291012844,
+    0.30117617612391545,
+    0.4336426012688468
+   ]
+  },
+  "cell_0.5": {
+   "z01_nm": 2.2782942904033465,
+   "norm0": 1.0,
+   "norm1": 1.0000000000000002,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03661500130451697,
+    0.14275302718837513,
+    0.3025445099165314,
+    0.4310762861616611
+   ]
+  },
+  "cell_0.25": {
+   "z01_nm": 2.2842649188400235,
+   "norm0": 1.0,
+   "norm1": 1.0,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03643233614974037,
+    0.142503087467241,
+    0.30346456643731656,
+    0.43314678480124064
+   ]
+  },
+  "cell_0.125": {
+   "z01_nm": 2.2857577764826997,
+   "norm0": 1.0,
+   "norm1": 1.0000000000000002,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.03638548447114226,
+    0.14243815503126578,
+    0.30369623146579494,
+    0.43397956432460366
+   ]
+  },
+  "cell_0.0625": {
+   "z01_nm": 2.2861309357344046,
+   "norm0": 1.0,
+   "norm1": 1.0,
+   "n_states_returned": 4,
+   "E_eV": [
+    0.036373695648312915,
+    0.14242177127557373,
+    0.3037548284974059,
+    0.43434387302128197
+   ]
+  }
+ },
+ "interface_potentials": {
+  "node_0.5": {
+   "V_at_10nm_eV": 0.0,
+   "V_at_20nm_eV": 0.0,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "node_0.25": {
+   "V_at_10nm_eV": 0.0,
+   "V_at_20nm_eV": 0.0,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "node_0.125": {
+   "V_at_10nm_eV": 0.0,
+   "V_at_20nm_eV": 0.0,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "node_0.0625": {
+   "V_at_10nm_eV": 0.0,
+   "V_at_20nm_eV": 0.0,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "cell_0.5": {
+   "V_at_10nm_eV": 0.2,
+   "V_at_20nm_eV": 0.2,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "cell_0.25": {
+   "V_at_10nm_eV": 0.2,
+   "V_at_20nm_eV": 0.2,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "cell_0.125": {
+   "V_at_10nm_eV": 0.2,
+   "V_at_20nm_eV": 0.2,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  },
+  "cell_0.0625": {
+   "V_at_10nm_eV": 0.2,
+   "V_at_20nm_eV": 0.2,
+   "V_left_of_10nm_eV": 0.4,
+   "V_right_of_20nm_eV": 0.4
+  }
+ },
+ "npz": "states.npz",
+ "npz_sha256": "e081004340f263386208cd500dbddd3729e25070a094d2ea0b637b6a2a62b876"
+}

@@ -1,0 +1,2006 @@
+{
+  "91de6b6bd2ce446c": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4c21680b9c994d50": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "760eeef5d5ff670c": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 1.0
+  },
+  "26fb1ca440ca52c5": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.003004504503377
+  },
+  "04b7660351ddece5": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 0.997004495503373
+  },
+  "9e8548d7b4e46157": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 0.9940179640539353,
+    "gamma": 1.0
+  },
+  "57703b5965d5ff64": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 0.9982016190284373,
+    "gamma": 1.0012007202880864
+  },
+  "92ff2bbf40b3591e": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "7d55ee7aeee115e1": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "e9085559fd76c8e6": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 0.997004495503373
+  },
+  "7960cd40ac16af95": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "f50d311050fd06ca": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "0d719bf310bd4cff": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "c534f660cf5ae37d": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4e62f14e302ad60a": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 1.0
+  },
+  "33487c3b3cef9e6c": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.003004504503377
+  },
+  "5d68310c06a86293": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 0.997004495503373
+  },
+  "9d8a1052f4f70dd7": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 0.9940179640539353,
+    "gamma": 1.0
+  },
+  "b95f65099c7813f2": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.003004504503377,
+    "beta": 0.9982016190284373,
+    "gamma": 1.0012007202880864
+  },
+  "a9cf176a3323fe31": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "bd4ebc9995ac2649": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "52c695713f97cf0c": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.003004504503377,
+    "gamma": 0.997004495503373
+  },
+  "ad11a405a5606280": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "b8d147cbcd52809c": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 0,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "f604ea957cd99241": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "8558b6a4b9d762c7": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "855eca401ad7d8db": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0
+  },
+  "7e50078f764911d7": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9860975442628619
+  },
+  "25ddbf5ee8778e61": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0140984589384923
+  },
+  "e8aec5b144406a95": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.028395684421425,
+    "gamma": 1.0
+  },
+  "90cc81501b3b5618": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.0084353789917955,
+    "gamma": 0.9944156507715979
+  },
+  "8ca814146d6c9562": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "3a4763159ef585f9": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "0c75fa5cecced5d2": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0140984589384923
+  },
+  "fe08024143b0489d": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "05f46853f14dc1a0": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "f97303482af0de2e": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4098caa49ed6d936": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "c125d6c41a6a467c": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0
+  },
+  "fad52681371b9897": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9860975442628619
+  },
+  "93c077a326d84baf": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0140984589384923
+  },
+  "04cf739d7e373f16": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.028395684421425,
+    "gamma": 1.0
+  },
+  "d5ecc8f6a28c5a53": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9860975442628619,
+    "beta": 1.0084353789917955,
+    "gamma": 0.9944156507715979
+  },
+  "f5edd875d2b251af": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "5eb0228e037dedbe": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "998a602b9f1e5c24": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9860975442628619,
+    "gamma": 1.0140984589384923
+  },
+  "3722ddf100769039": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4aba7bd0ca7d7276": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 1,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "ff53267516b3d1ba": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "cdbab2aa7c7d7586": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "6a4bbd1994942f8a": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 1.0
+  },
+  "62d2e196c73a0133": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0314855038865227
+  },
+  "3993dcdb77a52015": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 0.9694755730760259
+  },
+  "f9a647f0cab59959": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 0.9398828867910889,
+    "gamma": 1.0
+  },
+  "7889445b60837238": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 0.9815719124925191,
+    "gamma": 1.0124771987582037
+  },
+  "36219b13f592d4f1": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "1af617daab16ea04": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "a8a296d55fda760e": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 0.9694755730760259
+  },
+  "fd47a08dccaa75c0": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "59c319e5e95925c6": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "16250c4184b781ea": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "110d5cda3beb9b10": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "cd043f7d9e3ca725": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 1.0
+  },
+  "e9eac82d03534aa5": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0314855038865227
+  },
+  "cab572f9af6ca98c": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 0.9694755730760259
+  },
+  "c13222abe6776a0d": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 0.9398828867910889,
+    "gamma": 1.0
+  },
+  "875ed769cf4bcf31": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0314855038865227,
+    "beta": 0.9815719124925191,
+    "gamma": 1.0124771987582037
+  },
+  "82a5dc9e36a5dbc9": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "82ea55db804fd637": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "66bb42bb3a25e331": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0314855038865227,
+    "gamma": 0.9694755730760259
+  },
+  "cbeb126d680e38d6": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "768d70b32f93040b": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 2,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "5a07eadaf9a9e8f7": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "ad4a5249a6319c04": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "f8b086ac86cdf0da": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0
+  },
+  "6550606dcc66ed82": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9436499474367985
+  },
+  "f644abc92b0e9208": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0597149957102876
+  },
+  "f833f6e0f4a3d455": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.1229958721332547,
+    "gamma": 1.0
+  },
+  "77d68f132bb41fb9": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.0354126055688768,
+    "gamma": 0.9770670508204692
+  },
+  "0a16ff57c0f048b1": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "a5edb395cf0391b3": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "75dd24d2700ef30d": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0597149957102876
+  },
+  "2adb79ed5630952d": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "ecddf47d0f53582a": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4e1607154e2a1d69": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "ab27dbcc4702884a": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "fbae8ec8ebce1f92": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0
+  },
+  "65a6f93ded260aa5": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9436499474367985
+  },
+  "fad882358dcbeb1c": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0597149957102876
+  },
+  "2d6d5020071846ec": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.1229958721332547,
+    "gamma": 1.0
+  },
+  "33117933802ad8c7": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9436499474367985,
+    "beta": 1.0354126055688768,
+    "gamma": 0.9770670508204692
+  },
+  "c625d64bc28a1acf": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "34f22d2995b741a6": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "c96b997c28c4851f": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9436499474367985,
+    "gamma": 1.0597149957102876
+  },
+  "b187489dfd5c8fdd": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4c689370388f03fc": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 3,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "4af4a78ad492158b": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "677ca9fe0ef6be2c": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "2b294de54614e22e": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 1.0
+  },
+  "955a27f1bd9dffaf": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.1162780704588713
+  },
+  "288ee19662eaaa5b": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 0.8958341352965282
+  },
+  "01138358e1f5110f": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 0.8025187979624785,
+    "gamma": 1.0
+  },
+  "a9a486faa1c6120b": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 0.9361308642916188,
+    "gamma": 1.0449823548884438
+  },
+  "8e28082670a5b792": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "4d1d46dcdca6764f": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "974fecb47ac7eefb": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 0.8958341352965282
+  },
+  "405987aed497c985": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "bed3d49ed1ee965e": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "474641f1f8e8c24d": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "762a7c22b29cb993": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "e9568c8e0d0870af": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 1.0
+  },
+  "4f08b448d435d1d2": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.1162780704588713
+  },
+  "9429f5d0ba1b4b91": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 0.8958341352965282
+  },
+  "ab60a704df2c2947": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 0.8025187979624785,
+    "gamma": 1.0
+  },
+  "4681ce2d86cd802d": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.1162780704588713,
+    "beta": 0.9361308642916188,
+    "gamma": 1.0449823548884438
+  },
+  "903bdde7d15028a1": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "e26071ff5160a02d": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "c2a3a7c819ea73e3": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.1162780704588713,
+    "gamma": 0.8958341352965282
+  },
+  "0861cf089a905754": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "68bcf5f7872dcb0b": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 4,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "493d3661aa9a4b11": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "ffedcfd4f507fc1c": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "62196ab4ec31b03d": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0
+  },
+  "5ae6eca821069d07": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9772624837732771
+  },
+  "9e3d5e98321323a6": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0232665395472176
+  },
+  "757f7cbebfccaa54": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0470744109569372,
+    "gamma": 1.0
+  },
+  "33bb11050d655698": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0138956595273219,
+    "gamma": 0.9908421905166154
+  },
+  "d67d27597ef3cea6": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "0fe167f046767bbd": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "cf10382bf6ff8e3a": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0232665395472176
+  },
+  "4b18ff40503a3f9f": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "bf4c68ffc920b017": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "endpoint_trapezoid",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "b84206cd6d983141": {
+    "family": "clean",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "0fc0eec8918d498d": {
+    "family": "envelope_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "bde1bd4651c2eb1d": {
+    "family": "weight_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0
+  },
+  "dc777948227f6f9d": {
+    "family": "operator_scale",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 0.9772624837732771
+  },
+  "123a4803e65d39c9": {
+    "family": "cancelled_weight_operator",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0232665395472176
+  },
+  "98c09c05f907f310": {
+    "family": "cancelled_norm_weight",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0470744109569372,
+    "gamma": 1.0
+  },
+  "77c4df0a57f28a73": {
+    "family": "triple",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "normalization",
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 0.9772624837732771,
+    "beta": 1.0138956595273219,
+    "gamma": 0.9908421905166154
+  },
+  "30a3145623ce76e4": {
+    "family": "weak_operator",
+    "cohort": "primary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.000000000002
+  },
+  "da0bae60690928ed": {
+    "family": "coarse_clean",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "6c71a202b8f1fe7d": {
+    "family": "missing_two_probes",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "measure",
+      "operator"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 0.9772624837732771,
+    "gamma": 1.0232665395472176
+  },
+  "4869b6c2fe778ace": {
+    "family": "changing_identity",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [],
+    "has_fault": false,
+    "comparable": false,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  },
+  "da293a953df9201d": {
+    "family": "incoherent_channels",
+    "cohort": "boundary",
+    "context": 5,
+    "consumer": "cell_midpoint",
+    "causes": [
+      "branch"
+    ],
+    "has_fault": true,
+    "comparable": true,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+  }
+}
