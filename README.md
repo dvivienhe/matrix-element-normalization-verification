@@ -46,5 +46,5 @@ succeeds and every output matches. Byte identity is claimed for the recorded env
 ## Licence and citation
 
 Program code: MIT. Data, tables and figures: CC BY 4.0. See `LICENSE`. Please cite the article and this
-repository (`CITATION.cff`). The program code was developed with the assistance of AI tools; see the declaration
-in the article.
+repository (`CITATION.cff`); version 1.0.0 is archived on Zenodo, https://doi.org/10.5281/zenodo.24280593.
+The program code was developed with the assistance of AI tools; see the declaration in the article.
